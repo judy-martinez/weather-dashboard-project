@@ -16,10 +16,24 @@
     
   </head>
 <!-- Body -->
-  <body class="container">
-    <header class="hero">
+  <body class="flex-column min-100-vh container">
+    <header class="text-center text-white text-uppercase hero">
       <h1>Weather Dashboard</h1>
     </header>
+    <!-- City Form -->
+    <main class="">
+        <div class="col-12 col-md-4">
+            <div class="card">
+              <h3 class="card-header text-left">Search for a City</h3>
+              <form id="user-form" class="card-body">
+                <!-- <label class="form-label" for="username">Username</label> -->
+                <input name="city" id="city" type="text" autofocus="true" class="form-input" />
+                <button type="submit" class="btn btn-primary" id="search-btn">Search</button>
+              </form>
+            </div>
+        </div>
+
+    </main>
 
     <!-- JavaScript -->
     <script src="./assets/js/script.js"></script>

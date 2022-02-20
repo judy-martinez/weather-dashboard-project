@@ -1,5 +1,5 @@
 /* Header Styles Start */
 header {
-    text-align: center;
+    font-family: 'Open Sans', sans-serif;
     background: linear-gradient(#e66465, #9198e5);
 }
