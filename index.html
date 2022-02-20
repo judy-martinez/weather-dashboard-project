@@ -21,10 +21,10 @@
       <h1>Weather Dashboard</h1>
     </header>
     <!-- City Form -->
-    <main class="">
+    <main class="dashboard container">
         <div class="col-12 col-md-4">
             <div class="card">
-              <h3 class="card-header text-left">Search for a City</h3>
+              <h3 class="row-header text-left">Search for a City</h3>
               <form id="user-form" class="card-body">
                 <input name="city" id="city" type="text" autofocus="true" class="form-input" />
                 <button type="submit" class="btn btn-primary" id="search-btn">Search</button>
@@ -34,12 +34,38 @@
         <!-- Search History Section -->
         <div class="col-12 col-md-4">
             <div class="card">
-                <h2 class="row-header text-left">Search History</h2>
+                <h3 class="row-header text-left">Search History</h2>
             </div>
         </div>
         <!-- Cities - Search History -->
         <div class="row citySearch">
         <!-- Cities go here -->
+        </div>
+
+        <!-- Dashboard with Current Weather & 5-Day Forecast -->
+        <div class="col-12 col-md-8">
+            <div class="row" id="city-name" class="city-name"></div>
+                <!-- Current Weather Conditions -->
+                <div class="currentWeather">
+                    <div class="cityName">
+                    <!-- City & date -->
+                    <!-- City (DATE) icon-->
+                        <!-- Temp: -->
+                        <p id="temp">Temp:</p>
+                        <!-- Wind: -->
+                        <p id="wind">Wind:</p>
+                        <!-- Humidity -->
+                        <p id="humidity">Humidity:</p>
+                        <!-- UV Index -->
+                        <p id="uv-index">UV Index:</p>
+                    
+            <!-- 5-Day Forecast: -->
+            <div class="row">
+                <!-- div class bootstrap styling -->
+                <h3>5-Day Forecast:</h3>            
+                </div>
+
+            </div>
         </div>
     </main>
 
