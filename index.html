@@ -1,59 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
     <!-- Google Font API -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
     <!-- CSS Stylesheet -->
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Weather Dashboard</title>
-    
-  </head>
+
+</head>
 <!-- Body -->
-  <body class="flex-column min-100-vh container">
+
+<body class="flex-column min-100-vh container">
     <header class="text-center text-white text-uppercase hero">
-      <h1>Weather Dashboard</h1>
+        <h1>Weather Dashboard</h1>
     </header>
     <!-- City Form -->
     <main class="flex-row justify-space-between dashboard container">
-        <div class="col-12 col-md-4">
-            <div class="row">
-              <h3 class="row-header text-left">Search for a City</h3>
-              <form id="user-form" class="card-body">
-                <input name="city" id="city" type="text" autofocus="true" class="form-input" />
-                <button type="submit" class="btn btn-primary" id="search-btn">
-                    <i class="fas fa-search"></i>
-                </button>
-              </form>
-            </div>
-        </div>
-        <!-- Search History Section -->
-        <div class="col-12 col-md-4">
-            <div class="row">
-                <h3 class="row-header text-left">Search History</h2>
-            </div>
-        </div>
-        <!-- Cities - Search History -->
-        <div class="row citySearch">
-        <!-- Cities go here -->
-        </div>
-
-        <!-- Dashboard with Current Weather & 5-Day Forecast Section-->
-        <div class="col-12 col-md-8">
-            <div class="row">
-
-                <!-- Current Weather Conditions -->
-                <!-- City & date -->
-                <div class="currentWeather">
-                    <div class="cityName">
-                        <!-- Current City, Date & Weather Icon -->
+        <div class="container">
+            <div class="container" style="float: left;">
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <h3 class="header text-left">Search for a City</h3>
+                        <form id="user-form" class="card-body">
+                            <input name="city" id="city" type="text" autofocus="true" class="form-input" />
+                            <button type="submit" class="btn btn-primary" id="search-btn">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </form>
                     </div>
+                    <!-- Search History Section -->
+                    <div class="col-1"></div>
+                    <div class="col">
+                                       <!-- Current Weather Conditions -->
+                <!-- City & date -->
+
+                    <div class="currentWeather">
+                        <h3 class="cityName">
+                            <!-- Current City, Date & Weather Icon -->
+                        </h3>
+                        <h3 class="date">
+                            <!-- Current City, Date & Weather Icon -->
+                        </h3>
                         <!-- Temp: -->
                         <p id="temp">Temp:</p>
                         <!-- Wind: -->
@@ -62,17 +58,36 @@
                         <p id="humidity">Humidity:</p>
                         <!-- UV Index -->
                         <p id="uv-index">UV Index:</p>
-                </div>
                     
-                <!-- 5-Day Forecast: -->
-                <div class="col-12 futureForecast">
-                    <div class="row">
-                        <!-- div class bootstrap styling -->
-                        <h3>5-Day Forecast:</h3>            
+                </div>
                     </div>
                 </div>
             </div>
+
+
+ 
+
+
+            </div>
         </div>
+        <h3 class="header text-left">Search History</h2>
+            <!-- Cities go here -->
+            <div class="citySearch"></div>
+            <!-- Dashboard with Current Weather & 5-Day Forecast Section-->
+
+
+        <!-- 5-Day Forecast: -->
+        <div class="col-12 futureForecast">
+            <div class="row">
+                <!-- div class bootstrap styling -->
+                <h3>5-Day Forecast:</h3>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+
+
     </main>
 
     <!-- jQuery -->
@@ -81,5 +96,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <!-- JavaScript -->
     <script src="./assets/js/script.js"></script>
-  </body>
+</body>
+
 </html>
