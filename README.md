@@ -22,4 +22,4 @@ THEN I am again presented with current and future conditions for that city
 https://judy-martinez.github.io/weather-dashboard-project/
 
 ## Screenshot
-C:\Users\judym\OneDrive\Desktop\coding\Challenges\weather-dashboard-project\assets\images\weather-dashboard-screenshot.png
+![weather-dashboard-screenshot](https://user-images.githubusercontent.com/93234615/154897886-2323cdd6-790d-4608-a9fe-81504e885b89.png)
