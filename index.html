@@ -29,40 +29,58 @@
             <div class="container" style="float: left;">
                 <div class="row">
                     <div class="col-12 col-md-4">
-                        <h3 class="header text-left">Search for a City</h3>
+                        <h2 class="header text-left">Search for a City</h2>
                         <form id="user-form" class="card-body">
-                            <input name="city" id="city" type="text" autofocus="true" class="form-input" />
-                            <button type="submit" class="btn btn-primary" id="search-btn">
+                            <input name="city" id="city" type="text" autofocus="true" class="form-control" />
+                            <button type="submit" class="btn btn-primary btn-block" id="search-btn">
                                 <i class="fas fa-search"></i>
                             </button>
                         </form>
+
+                        <!-- <h2 class="header text-left">Search History</h2> -->
+                            <!-- Cities go here -->
+                            <div class="citySearch"></div>
+                            <!-- Dashboard with Current Weather & 5-Day Forecast Section-->
                     </div>
+
+                    
                     <!-- Search History Section -->
                     <div class="col-1"></div>
                     <div class="col">
-                                       <!-- Current Weather Conditions -->
-                <!-- City & date -->
-
-                    <div class="currentWeather">
-                        <h3 class="cityName">
-                            <!-- Current City, Date & Weather Icon -->
-                        </h3>
-                        <h3 class="date">
-                            <!-- Current City, Date & Weather Icon -->
-                        </h3>
+                        
+                    <!-- Current Weather Conditions -->
+                    <!-- City & date -->
+                    <div class="currentWeather col-12 border border-dark rounded">
+                        <h2>
+                            <p class="text-uppercase">Current Weather</p>
+                        </h2>
+                        <h4 class="cityName">
+                            <!-- Current City -->
+                        </h4>
+                        <h4 class="date">
+                            <!-- Date & Weather Icon -->
+                        </h4>
                         <!-- Temp: -->
-                        <p id="temp">Temp:</p>
+                        <p id="temp"></p>
                         <!-- Wind: -->
-                        <p id="wind">Wind:</p>
+                        <p id="wind"></p>
                         <!-- Humidity -->
-                        <p id="humidity">Humidity:</p>
+                        <p id="humidity"></p>
                         <!-- UV Index -->
-                        <p id="uv-index">UV Index:</p>
+                        <p id="uv-index"></p>
+                    </div>
+        <!-- 5-Day Forecast: -->
+        <div class="col-12 futureForecast">
+            <div class="row">
+                <!-- div class bootstrap styling -->
+                <h4>5-Day Forecast:</h4>
+            </div>
                     
                 </div>
                     </div>
                 </div>
             </div>
+            
 
 
  
@@ -70,22 +88,22 @@
 
             </div>
         </div>
-        <h3 class="header text-left">Search History</h2>
-            <!-- Cities go here -->
+        <!-- <h3 class="header text-left">Search History</h2>
+            Cities go here
             <div class="citySearch"></div>
-            <!-- Dashboard with Current Weather & 5-Day Forecast Section-->
+            Dashboard with Current Weather & 5-Day Forecast Section
 
 
-        <!-- 5-Day Forecast: -->
+        5-Day Forecast:
         <div class="col-12 futureForecast">
             <div class="row">
-                <!-- div class bootstrap styling -->
+                div class bootstrap styling
                 <h3>5-Day Forecast:</h3>
-            </div>
-        </div>
-        </div>
-        </div>
-        </div>
+            </div> -->
+        <!-- </div> -->
+        <!-- </div> -->
+        <!-- </div> -->
+        <!-- </div> -->
 
 
     </main>

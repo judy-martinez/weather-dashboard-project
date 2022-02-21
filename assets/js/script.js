@@ -64,9 +64,9 @@ var formSubmitHandler = function(event) {
 
             cityDisplay.innerHTML = `${data.name}`
             date.innerHTML = `${moment().format('L')}`
-            tempDisplay.innerHTML = `Temp: ${temp}`
-            windDisplay.innerHTML = `Wind: ${wind}`
-            humidityDisplay.innerHTML = `humidity: ${humidity}`
+            tempDisplay.innerHTML = `Temp: ${temp}&#8457;`
+            windDisplay.innerHTML = `Wind: ${wind} mph`
+            humidityDisplay.innerHTML = `Humidity: ${humidity}%`
             uviDisplay.innerHTML = `UV Index: ${uvi}`
         })
     })
