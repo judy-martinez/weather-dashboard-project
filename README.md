@@ -1,9 +1,12 @@
 # weather-dashboard-project
 
-## User Story
-AS A traveler
-I WANT to see the weather outlook for multiple cities
-SO THAT I can plan a trip accordingly
+## Purpose
+Challenge activity to create an application that presents current & future forecast when a user searches for a city
+
+## Built With
+HTML
+CSS 
+JavaScript
 
 ## Acceptance Criteria
 GIVEN a weather dashboard with form inputs
@@ -22,4 +25,4 @@ THEN I am again presented with current and future conditions for that city
 https://judy-martinez.github.io/weather-dashboard-project/
 
 ## Screenshot
-![weather-dashboard-screenshot](https://user-images.githubusercontent.com/93234615/154897886-2323cdd6-790d-4608-a9fe-81504e885b89.png)
+
