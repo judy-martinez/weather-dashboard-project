@@ -1,7 +1,7 @@
-# weather-dashboard-project
+# Weather Dashboard Project
 
 ## Purpose
-Challenge activity to create an application that presents current & future forecast when a user searches for a city
+Class challenge activity to create an application that presents current & future forecast when a user searches for a city
 
 ## Built With
 * HTML
